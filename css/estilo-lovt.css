@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+
+body {
+    font-family: Ropa Sans;
+    color:rgb(110, 110, 110);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-left: 70px;
+    border-bottom: 2px solid #ccc;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+header h1{
+    margin: 15px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: lighter;
+}
+
+header p {
+    font-weight: lighter;
+    font-size: 16px;
+    display: inline-block;
+}
+
+section.banner {
+    background-image: url("../img/slider-image.png");
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 90%;
+    height: calc(100vh - 186px);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;    
+}
+
+section.lofts{
+    padding-left: 70px;
+}
+
+div.primeiro, div.segundo {
+    display: inline-block;
+    width: 40%;
+    background-color: #EEEEEE;
+}
+
+div.primeiro img, div.segundo img {
+    width: 100%;
+}
+
+
+#preco, #preco2 {
+    padding-left: 30px;
+    font-size: 30px;
+    color:rgb(131, 131, 131);
+    
+}
+
+#new {
+    margin-top: 0%;
+    text-align: right;
+}
+
+div.primeiro p, div.segundo p{
+    padding: 0 30px;
+    font-size: 18px;
+    text-align: justify;
+    color: #555555;
+}
+
+div.segundo {
+    margin-left: 14.5%;
+}
+
+.categorias {
+    margin-top: 5%;
+}
+
+.categorias h2{
+    font-weight: lighter;
+    font-size: 38px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    color: #888888;
+}
+
+.industrial {
+    background-image: url("../img/industrial.png");
+}
+
+.industrial, .modern, .classic {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 90%;
+    height: calc(40vh - 186px);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;  
+}
+
+.industrial p, .modern p, .classic p {
+    font-size: 25px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.modern {
+    background-image: url("../img/modern.png");
+}
+
+.classic {
+    background-image: url("../img/classic.png");
+}
+
+.rodape{
+    width: 0 auto;
+    background: #333333;
+}
+
+.contact {
+    display:inline-block;
+    line-height: 13px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact ul {
+    text-align: right;
+    list-style: none;
+}
+
+.rodape iframe {
+    display: inline-block;
+    margin: 5%;
+    border-radius: 19px;
+}
+
+.redes-sociais p {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size:22px;
+    text-align: right;
+}
