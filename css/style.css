@@ -208,3 +208,54 @@ footer .social-medias ul li img {
     width: 30px;
     margin: 10px 10px 10px 0;
 }
+
+
+
+@media (max-width: 769px) {
+    footer .container {
+        flex-wrap: wrap;
+        padding: 0 50px;
+        justify-content: center;
+    }
+
+    footer .container .mapa iframe {
+        max-width: 100%;
+    }
+
+    footer .container .info {
+        text-align: center;
+    }
+
+    footer .container .info .social-medias ul {
+        justify-content: center;
+    }
+
+    section.lofts article {
+        margin: 10px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    section.banner .carousel .controls button {
+        width: 50px;
+        height: 50px;
+    }
+
+    section.banner .carousel .controls button img {
+        width: 15px;
+    }
+
+
+}
+
+@media (max-width: 545px) {
+    section.lofts .container {
+        flex-wrap: wrap;
+    }
+
+    section.lofts article {
+        width: 100%;
+    }
+}
